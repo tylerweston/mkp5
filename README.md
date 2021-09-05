@@ -17,8 +17,8 @@ will create `C:\folder\first_proj` with the neccessary files to start your p5.js
 # Command line arguments:
 |Argument|Explanation|
 |---|---|
-|--directory_name DIR_NAME, -d DIR_NAME  |Name of directory to create project in, if not specified default to project name |
-|--author AUTHOR_NAME, -a AUTHOR_NAME  |Author name to be used in headers |
+|--directory_name DIR_NAME<br />-d DIR_NAME  |Name of directory to create project in, if not specified default to project name |
+|--author AUTHOR_NAME<br />-a AUTHOR_NAME  |Author name to be used in headers |
 |--debug             |Show debug info during process |
 |--no_headers        |Don't use headers in any files |
 |--sparse_headers    |Only use project name in headers| 
