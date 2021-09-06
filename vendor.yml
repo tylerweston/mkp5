@@ -1,0 +1,3 @@
+# ignore assets otherwise the project is incorrectly labelled 
+# as a javascript project
+- assets/
