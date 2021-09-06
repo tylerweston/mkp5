@@ -18,10 +18,14 @@ will create `C:\folder\first_proj` with the neccessary files to start your p5.js
 |Argument|Explanation|
 |---|---|
 |--directory_name DIR_NAME<br />-d DIR_NAME  |Name of directory to create project in, if not specified default to project name |
-|--author AUTHOR_NAME<br />-a AUTHOR_NAME  |Author name to be used in headers |
+|--author "AUTHOR_NAME"<br />-a "AUTHOR_NAME"  |Author name to be used in headers |
 |--debug             |Show debug info during process |
 |--no_headers        |Don't use headers in any files |
 |--sparse_headers    |Only use project name in headers| 
+|--no_sound          |Don't include sound libraries|
+|--use_cdn           |Use CDN delivery instead of local libraries|
+|--no_min            |Use full version of the libaries, instead of minifed versions|
+|--use_ver=VERSION  |Use a different version of the libraries (Only when using CDN). Defaults to newest version, currently 1.4.0|
 
 Example:
 Running  
