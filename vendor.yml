@@ -1,3 +1,2 @@
-# ignore assets otherwise the project is incorrectly labelled 
-# as a javascript project
-assets/** -linguist-vendored
+# Treat all files in assets as vendored
+assets/** linguist-vendored
